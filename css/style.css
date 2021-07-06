@@ -21,6 +21,10 @@ p {
   font-size: 18px;
   line-height: 32px;
 }
+
+span {
+  color: #fba24f;
+}
 .section-wrap {
   padding: 80px 0;
 }
@@ -54,7 +58,6 @@ p {
 }
 
 .header-left h1 span {
-  color: #fba24f;
 }
 
 .header-left p {
@@ -100,6 +103,7 @@ p {
 
 .about-right {
   width: 50%;
+  padding-bottom: 5%;
 }
 
 .about-right h2 {
@@ -107,7 +111,7 @@ p {
 }
 
 .about-right p {
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
 
 .recipie {
@@ -150,6 +154,93 @@ p {
 .recipie-item p {
 }
 
+.newsletter {
+  background: linear-gradient(
+      128deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 0%
+    ),
+    url(../images/Project\ Cover4.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.newsletter h2 {
+  color: white;
+}
+
+.newsletter p {
+  color: white;
+}
+.newsletter form {
+  margin-top: 30px;
+}
+
+.newsletter form input[type="email"] {
+  padding: 15px;
+  width: 30%;
+  font-size: 16px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  outline: none;
+  border-radius: 100px;
+}
+
+.newsletter form input[type="email"]::placeholder {
+  color: white;
+}
+.newsletter form input[type="submit"] {
+  padding: 15px;
+  width: 20%;
+  border: none;
+  outline: none;
+}
+
+.testimonial .non-flex-container h2 {
+  margin-bottom: 40px;
+}
+
+.testimonial .customer {
+  text-align: center;
+}
+
+.testimonial .customer img {
+  width: 40%;
+}
+
+.testimonial .customer .quotes {
+  width: 20%;
+  margin-bottom: 0;
+}
+
+.container.counter {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 64px 0;
+}
+.counter .counter-social {
+  width: 30%;
+  text-align: center;
+}
+
+.counter .counter-social h2 {
+  font-size: 48px;
+  color: #18191f;
+}
+
 footer {
   background: #0b0d17;
+  padding: 35px 0 115px 0;
+}
+
+footer .non-flex-container h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+footer .non-flex-container p {
+  color: white;
+  font-size: 16px;
 }
