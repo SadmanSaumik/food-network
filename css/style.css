@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+}
+
+h2 {
+  color: #707070;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+p {
+  color: #18191f;
+  font-size: 18px;
+  line-height: 32px;
+}
+.section-wrap {
+  padding: 80px 0;
+}
+
+.header {
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.non-flex-container {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-left {
+  width: 50%;
+}
+
+.header-left h1 {
+  font-size: 60px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+  color: #575757;
+}
+
+.header-left h1 span {
+  color: #fba24f;
+}
+
+.header-left p {
+  font-size: 20px;
+  padding-right: 20%;
+  margin-bottom: 50px;
+  color: #828282;
+  line-height: 32px;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 18px;
+  background: linear-gradient(to right, #fba24f, #ff1e1e);
+  padding: 24px 43px;
+  border-radius: 100px;
+  color: white;
+  font-weight: 500px;
+  box-shadow: 0px 2px 30px #fc8f4980;
+}
+
+.header-right {
+  width: 50%;
+}
+
+.about {
+  background: url(../images/Frame\ 57.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  padding-top: 64px;
+}
+
+.about-left {
+  width: 50%;
+  text-align: center;
+}
+
+.about-left img {
+  width: 55%;
+}
+
+.about-right {
+  width: 50%;
+}
+
+.about-right h2 {
+  margin-bottom: 50px;
+}
+
+.about-right p {
+  margin-bottom: 90px;
+}
+
+.recipie {
+}
+
+.recipie-heading {
+  margin-bottom: 40px;
+}
+
+.recipie-heading h2 {
+  margin-bottom: 20px;
+}
+
+.recipie-heading p {
+  font: 18px;
+  line-height: 25px;
+  color: #252525;
+}
+
+.recipie-item {
+  width: 30%;
+  margin: 0 1%;
+  padding: 20px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+
+.recipie-item img {
+  margin-bottom: 40px;
+}
+
+.recipie-item h3 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+  margin-bottom: 10px;
+}
+
+.recipie-item p {
+}
+
+footer {
+  background: #0b0d17;
+}
